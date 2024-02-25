@@ -63,7 +63,7 @@ const category = ({movies,categories,types,categorie}) => {
          <div className='Navbar'>
       <Toolbar className='flex justify-between '>
         <Typography variant="h6" noWrap component="div">
-        
+         Responsive drawer
         </Typography>
 
         <IconButton
