@@ -3,7 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
+html{
     background: #04152d;
 }
 .css-1j95noh .MuiDrawer-paper{
