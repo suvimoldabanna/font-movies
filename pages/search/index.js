@@ -55,9 +55,10 @@ const index = ({movies,categories,types}) => {
         ml: { sm: `${drawerWidth}px` },
       }}
     >
-      <Toolbar className='flex justify-between'>
+    <div className='Navbar'>
+      <Toolbar className='flex justify-between '>
         <Typography variant="h6" noWrap component="div">
-          Responsive drawer
+        
         </Typography>
 
         <IconButton
@@ -70,6 +71,7 @@ const index = ({movies,categories,types}) => {
          <MenuIcon />
         </IconButton>
       </Toolbar>
+      </div>
     </AppBar>
     <Box
       component="nav"
