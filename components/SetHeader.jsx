@@ -19,7 +19,7 @@ const SetHeader = ({categories,types}) => {
 
 
   return (
-    <nav>
+    <nav className='nav'>
     <div className='logo'>
   {/** LOGO */}
     </div>
