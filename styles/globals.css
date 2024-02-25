@@ -3,10 +3,8 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    background: #04152d;
-}
-.MuiPaper {
+
+.NavBar {
     background-color: #04152d;
     padding-left: 20px;
     box-shadow: 0px 4px 4px #000;
@@ -24,7 +22,7 @@ body{
 .customfont{
     font-family: 'Kanit';
 }
-nav {
+.nav {
     background-color: #04152d;
     padding: 1rem .25rem;
     display: flex;
@@ -34,19 +32,19 @@ nav {
     z-index: 2
 }
 
-nav .logo {
+.nav .logo {
     text-align: center;
     width: 100%
 }
 
-nav .logo p {
+.nav .logo p {
     font-size: 1.8rem;
     background: -webkit-linear-gradient(45deg,#21daa2,#005aff);
   
     -webkit-text-fill-color: transparent
 }
 
-nav .linksContainer {
+.nav .linksContainer {
     font-size: 1.8rem;
     margin-top: 3rem;
     height: 100%;
@@ -57,7 +55,7 @@ nav .linksContainer {
     transition: all .3s ease-in-out
 }
 
-nav .linksContainer a {
+.nav .linksContainer a {
     font-size: 1.2rem;
     padding: .25rem .75rem;
     color: #fff;
@@ -67,33 +65,33 @@ nav .linksContainer a {
     color: #00f7ff;
 }
 
-nav .linksContainer a:last-child {
+.nav .linksContainer a:last-child {
     margin-top: auto
 }
 
-nav .linksContainer a .link__icon {
+.nav .linksContainer a .link__icon {
     fill: #d50c71;
     font-size: 1.4rem
 }
 
-nav .linksContainer a .link__title {
+.nav .linksContainer a .link__title {
     padding-left: .75rem;
     font-size: 17px;
 
 }
 
-nav .linksContainer a:hover {
+.nav .linksContainer a:hover {
     color:#d50c71;
 }
 
-nav .linksContainer a.active {
+.nav .linksContainer a.active {
     fill: #d50c71;
     transform: scale(1.05);
     color: #d50c71;
     
 }
 
-nav .linksContainer a.active .link__icon {
+.nav .linksContainer a.active .link__icon {
     color: #d50c71;
 }
 .customNav{
