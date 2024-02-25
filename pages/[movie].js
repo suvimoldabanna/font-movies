@@ -78,7 +78,7 @@ const movie = ({movies,movie,categories,types,categorie,type,movi,video}) => {
         ml: { sm: `${drawerWidth}px` },
       }}
     >
-      <Toolbar className='flex justify-between setdetailhead'>
+      <Toolbar className='flex justify-between absolute '>
         <Typography variant="h6" noWrap component="div">
         
         </Typography>
