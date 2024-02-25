@@ -42,7 +42,7 @@ const index = ({movies,categories,types}) => {
     <>
       
   
-      <Box sx={{ display: 'flex' }} className='NavBar bg-black'>
+      <Box sx={{ display: 'flex' }} className='NavBar '>
       <CssBaseline />
       <AppBar
         position="fixed"
